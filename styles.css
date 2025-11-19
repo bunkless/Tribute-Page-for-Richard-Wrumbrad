@@ -16,6 +16,7 @@ body {
     text-align: center;
     margin-top: 80px;
     width: 80%;
+    border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
     background-color: #d5bdaf;
@@ -32,19 +33,41 @@ body {
     padding: 10px;
     margin: 10px auto;
     border-radius: 10px;
+    display: block;
 }
 
-.timeline{
+.tribute-info{
     text-align: left;
     max-width: 800px;
     margin: 20px auto;
     background-color: #f5ebe0;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
-.timeline h2 {
+.tribute-info h2 {
     text-align: center;
     margin-bottom: 50px;
     color: #4a2c2a;
+}
+
+.tribute-info button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #d5bdaf;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+    
+.tribute-info button:hover {
+    background-color: #c4a69a;
+}
+
+.tribute-info a {
+    text-decoration: none;
+    color: inherit;
 }
